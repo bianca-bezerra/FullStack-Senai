@@ -1,0 +1,75 @@
+main {
+    min-height: 500px;
+}
+
+#section-banner {
+    min-height: 500px;
+    padding: 40px;
+    padding-bottom: 60px;
+}
+
+#section-banner img {
+    height: 700px;
+}
+
+h2 {
+    text-align: center;
+    color: #1F7A8C;
+    font-weight: bold;
+    font-size: 45px;
+    font-family: "Poppins";
+    padding-top: 35px;
+}
+
+.example-card {
+    max-width: 400px;
+
+    img {
+        transition: all .5s;
+    }
+
+    img:hover {
+        transform: scale(1.08);
+    }
+}
+
+mat-grid-list {
+    margin: 10px 0;
+}
+
+mat-grid-tile {
+    padding: 2px;
+    border-radius: 30px;
+}
+
+mat-card-header {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+   
+}
+
+mat-card-actions {
+    display: flex;
+    justify-content: space-around;
+
+    p {
+        color: cadetblue;
+        font-size: 25px;
+    }
+
+    button {
+        font-size: 15px;
+        background-color: #F9DF74;
+    }
+
+    button:hover {
+        background-color: #1F7A8C;
+        color: white;
+    }
+
+    img {
+        height: 300px;
+        width: 330px;
+    }
+}
