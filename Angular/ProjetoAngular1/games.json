@@ -1,0 +1,25 @@
+{
+  "Produtos": [
+    {
+      "id": "1",
+      "produto": "Street Fighter",
+      "foto": "jogo1.webp",
+      "descricao": "Sagat, um mestre do Muay Thai, luta contra Ryu em um torneio para ver quem é o melhor lutador do mundo.",
+      "preco": 150
+    },
+    {
+      "id": "2",
+      "produto": "NBA 2024",
+      "foto": "jogo2.webp",
+      "descricao": "NBA 2K24 é um videogame de basquete de 2023 desenvolvido pela Visual Concepts Austin ",
+      "preco": 300
+    },
+    {
+      "id": "3",
+      "produto": "Homem Aranha",
+      "foto": "homemaranha.webp",
+      "descricao": "Marvel's Spider-Man 2 é um jogo eletrônico de ação-aventura desenvolvido pela Insomniac Games ",
+      "preco": 200
+    }
+  ]
+}
