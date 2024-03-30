@@ -1,31 +1,9 @@
 # FullStack-Senai
 
-## Atividade 1 - Front-End: Páginas de Home e Login usando HTML e CSS
+## Pasta Angular - Front-End: Páginas de Home e Login
 
 ### Proposta
-Na atividade 1, o objetivo é desenvolver páginas de Home e Login de um e-commerce de jogos eletrônicos.
-
-### Setup
-
-1. **Clone o repositório:**
-    ```bash
-    git clone https://github.com/bianca-bezerra/FullStack-Senai.git
-    ```
-
-2. **Navegue até o diretório da atividade 1:**
-    ```bash
-    cd FullStack-Senai/Atividade1
-    ```
-
-### Execução
-
-Abra o arquivo `index.html` no seu navegador para visualizar as páginas de Home e Login.
-
-
-## Atividade 2 - Front-End: Páginas de Home e Login  utilizando Angular
-
-### Proposta
-Na atividade 2, o objetivo é a implementação do framework Angular para o desenvolvimento de um e-commerce de jogos eletrônicos, utilizando componentes do Bootstrap e Angular Material.
+A aplicação é um e-commerce de jogos eletrônicos desenvolvido com Angular. Ela utiliza serviços para manipular os dados dos jogos, permitindo operações CRUD (Create, Read, Update, Delete) dos produtos por meio do servidor JSON fornecido pelo json-server. Além disso, utiliza componentes do Bootstrap e Angular Material para a interface.
 
 ### Setup
 
@@ -34,9 +12,9 @@ Na atividade 2, o objetivo é a implementação do framework Angular para o dese
     npm install -g @angular/cli
     ```
 
-2. **Navegue até o diretório do projeto da atividade 2:**
+2. **Navegue até o diretório da atividade:**
     ```bash
-    cd FullStack-Senai/Atividade2/ProjetoAngular1
+    cd FullStack-Senai/Angular/ProjetoAngular1
     ```
 
 3. **Instale as dependências:**
@@ -46,6 +24,11 @@ Na atividade 2, o objetivo é a implementação do framework Angular para o dese
 
 ### Execução
 
-Execute o projeto Angular diretamente no navegador
-   ```bash
-   ng serve -o
+1. **Execute o projeto Angular:**
+    ```bash
+    ng serve -o
+    ```
+2. **Execute o Json-server:**
+    ```bash
+    json-server --watch games.json
+    ```
