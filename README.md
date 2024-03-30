@@ -34,9 +34,9 @@ Na atividade 2, o objetivo é a implementação do framework Angular para o dese
     npm install -g @angular/cli
     ```
 
-2. **Navegue até o diretório da atividade 2:**
+2. **Navegue até o diretório do projeto da atividade 2:**
     ```bash
-    cd FullStack-Senai/Atividade2
+    cd FullStack-Senai/Atividade2/ProjetoAngular1
     ```
 
 3. **Instale as dependências:**
